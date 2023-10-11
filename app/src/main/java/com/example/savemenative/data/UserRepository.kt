@@ -5,4 +5,5 @@ import com.example.savemenative.model.User
 
 interface UserRepository {
     suspend fun login(user: User): LoginResponse
+
 }
